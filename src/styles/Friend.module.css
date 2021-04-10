@@ -1,0 +1,59 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  align-self: center;
+  margin: 0.5rem auto;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.04);
+}
+
+.friendName {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.subText {
+  color: #4f5665;
+  font-size: 0.8125rem;
+  margin: 0.25rem 0 0 0;
+}
+
+.actions {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions div {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #30303015;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.actions div:hover {
+  border: 1px solid #30303080;
+}
+
+.actions div:hover svg path {
+  fill: #3065b1;
+}
+
+.actions .mainAction:nth-child(2):hover svg path {
+  fill: #ff3e1d;
+}
+
+.confirmation {
+  margin: 12px 0;
+}

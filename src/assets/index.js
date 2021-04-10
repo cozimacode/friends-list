@@ -1,0 +1,10 @@
+export { default as logo } from "./logo.png";
+export { default as Star } from "./star.svg";
+export { default as StarFilled } from "./star-fill.svg";
+export { default as Smiley } from "./emoji-smile.svg";
+export { default as Trash } from "./trash.svg";
+export { default as Check } from "./check.svg";
+export { default as Cross } from "./cross.svg";
+export { default as ArrowLeft } from "./arrow-left.svg";
+export { default as ArrowRight } from "./arrow-right.svg";
+export { default as Dropdown } from "./dropdown.svg";
